@@ -1,0 +1,31 @@
+/* header style  */
+.logoSection img {
+  padding: 10px;
+}
+.navLinkSection {
+  gap: 2rem;
+}
+.registerBtns {
+  width: 150px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: transparent;
+  font-weight: 500;
+}
+.signIn {
+  border: none;
+  color: #f53855;
+}
+.signUp {
+  border: 2px solid #f53855;
+  color: #f53855;
+}
+
+.menuBtn i {
+  font-size: 35px;
+}
+
+.dropDown {
+  background-color: rgba(220, 220, 220, 0.4);
+  backdrop-filter: blur(10px) saturate(70%);
+}

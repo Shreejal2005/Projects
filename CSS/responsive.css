@@ -1,0 +1,22 @@
+@media (max-width: 950px) {
+    .navBar ul.navLinkSection,.navBar div.registrationBtns{
+        display: none;
+    }
+    .dropDown{
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .dropDown li{
+        padding: 10px 0;
+    }
+}
+@media (min-width: 951px) {
+    .menuBtn{
+        display: none;
+    }
+    .dropDown{
+        display: none;
+    }
+}
