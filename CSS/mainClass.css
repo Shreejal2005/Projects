@@ -140,3 +140,31 @@ b{
 .p-20{
     padding: 20px;
 }
+
+/* vertical spacer  */
+.v-spacer20{
+    height: 20px;
+}
+.v-spacer30{
+    height: 30px;
+}
+.v-spacer40{
+    height: 40px;
+}
+.v-spacer50{
+    height: 50px;
+}
+
+/* horizontal spacer  */
+.h-spacer20{
+    width: 20px;
+}
+.h-spacer30{
+    width: 30px;
+}
+.h-spacer40{
+    width: 40px;
+}
+.h-spacer50{
+    width: 50px;
+}

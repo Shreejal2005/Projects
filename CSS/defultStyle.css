@@ -39,3 +39,18 @@
 
 
 /* ads */
+.adsBtn{
+  font-weight: 500;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #f53855;
+  border: none;
+  transition: 0.7s ease;
+}
+.adsBtn:hover{
+  color: #f53855;
+  background-color: transparent;
+  border: 2px solid #f53855;
+}
