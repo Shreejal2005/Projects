@@ -54,3 +54,31 @@
   background-color: transparent;
   border: 2px solid #f53855;
 }
+
+.redBoxShadow{
+  box-shadow: 0 0 40px #f53855;
+}
+
+.counter{
+  width: 25%;
+}
+.counter .icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f538546c;
+}
+
+.counter .icons i{
+  font-size: 20px;
+  color: #f53855;
+}
+
+.counterSection{
+  border-radius: 10px;
+  height: 80px;
+  padding: 20px;
+}
+.blackBoxShadow{
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
