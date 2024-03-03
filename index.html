@@ -20,53 +20,54 @@
 <body>
     <section class="maxWidth">
         <header class="width90 marginAuto">
-            <nav class="navBar flexContainer alignItemCenter j-spaceBetween">
-                <div class="logoSection flexContainer alignItemCenter">
-                    <img src="./SVG/logo.svg" alt="logo">
-                    <p class="f-20 boldness-500">Latesr<b>VPN</b></p>
+            <nav class="navBar">
+                <div class=" flexContainer alignItemCenter j-spaceBetween">
+                    <div class="logoSection flexContainer alignItemCenter">
+                        <img src="./SVG/logo.svg" alt="logo">
+                        <p class="f-20 boldness-500">Latesr<b>VPN</b></p>
+                    </div>
+                    <ul class="navLinkSection f-16 flexContainer alignItemCenter">
+                        <li><a href="#" class="lightColor">About</a></li>
+                        <li><a href="#" class="lightColor">Features</a></li>
+                        <li><a href="#" class="lightColor">Pricing</a></li>
+                        <li><a href="#" class="lightColor">Testimonials</a></li>
+                        <li><a href="#" class="lightColor">Help</a></li>
+                    </ul>
+                    <div class="registrationBtns flexContainer alignItemCenter">
+                        <button class="registerBtns signIn">Sign In</button>
+                        <button class="registerBtns signUp">Sign Up</button>
+                    </div>
+                    <div class="menuBtn">
+                        <i class="fa-solid fa-bars" onclick="toggle()"></i>
+                    </div>
                 </div>
-                <ul class="navLinkSection f-16 flexContainer alignItemCenter">
-                    <li><a href="#" class="lightColor">About</a></li>
-                    <li><a href="#" class="lightColor">Features</a></li>
-                    <li><a href="#" class="lightColor">Pricing</a></li>
-                    <li><a href="#" class="lightColor">Testimonials</a></li>
-                    <li><a href="#" class="lightColor">Help</a></li>
-                </ul>
-                <div class="registrationBtns flexContainer alignItemCenter">
-                    <button class="registerBtns signIn">Sign In</button>
-                    <button class="registerBtns signUp">Sign Up</button>
-                </div>
-                <div class="menuBtn">
-                    <button  onclick="toggle()">
-                        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-                    </button>
+                <div class="dropDown" id="menuList" style="display: none;">
+                    <ul class="f-16">
+                        <li>
+                            <a href="#" class="lightColor">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lightColor">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lightColor">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lightColor">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lightColor">Help</a>
+                        </li>
+                        <li>
+                            <button class="registerBtns signUp">Sign In</button>
+                        </li>
+                        <li>
+                            <button class="registerBtns signUp">Sign Up</button>
+                        </li>
+                    </ul>
                 </div>
             </nav>
-            <div class="dropDown" id="menuList" style="display: none;">
-                <ul class="f-16">
-                    <li>
-                        <a href="#" class="lightColor">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="lightColor">Features</a>
-                    </li>
-                    <li>
-                        <a href="#" class="lightColor">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="lightColor">Testimonials</a>
-                    </li>
-                    <li>
-                        <a href="#" class="lightColor">Help</a>
-                    </li>
-                    <li>
-                        <button class="registerBtns signIn">Sign In</button>
-                    </li>
-                    <li>
-                        <button class="registerBtns signUp">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
+
         </header>
     </section>
     <script src="./Javascript/responsiveStyleOfNav.js"></script>

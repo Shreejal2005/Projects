@@ -20,6 +20,10 @@
   border: 2px solid #f53855;
   color: #f53855;
 }
+.signUp:hover{
+  color: #FFFFFF;
+  background-color: #f53855;
+}
 
 .menuBtn i {
   font-size: 35px;
@@ -28,4 +32,7 @@
 .dropDown {
   background-color: rgba(220, 220, 220, 0.4);
   backdrop-filter: blur(10px) saturate(70%);
+}
+.menuBtn i {
+  cursor: pointer;
 }
