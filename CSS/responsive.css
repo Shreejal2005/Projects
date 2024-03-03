@@ -17,4 +17,7 @@
     .dropDown{
         display: none;
     }
+    .adsImage img{
+        width: 100%;
+    }
 }
