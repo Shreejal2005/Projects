@@ -20,8 +20,8 @@
   border: 2px solid #f53855;
   color: #f53855;
 }
-.signUp:hover{
-  color: #FFFFFF;
+.signUp:hover {
+  color: #ffffff;
   background-color: #f53855;
 }
 
@@ -37,48 +37,150 @@
   cursor: pointer;
 }
 
-
 /* ads */
-.adsBtn{
+.adsBtn {
   font-weight: 500;
   width: 250px;
   height: 60px;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #f53855;
   border: none;
   transition: 0.7s ease;
 }
-.adsBtn:hover{
+.adsBtn:hover {
   color: #f53855;
   background-color: transparent;
   border: 2px solid #f53855;
 }
 
-.redBoxShadow{
+.redBoxShadow {
   box-shadow: 0 0 40px #f53855;
 }
 
-.counter{
-  width: 25%;
+/* counting  */
+.counter {
+  width: 30%;
 }
-.counter .icons{
+.counter .icons {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #f538546c;
 }
 
-.counter .icons i{
+.counter .icons i {
   font-size: 20px;
   color: #f53855;
 }
 
-.counterSection{
+.counterSection {
   border-radius: 10px;
-  height: 80px;
+  /* height: 80px; */
   padding: 20px;
 }
-.blackBoxShadow{
+.blackBoxShadow {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
+
+/*Custom list style*/
+.custom-list{
+  text-align: start;
+}
+.listContain .custom-list li::before {
+  background-image: url("./../SVG/list.svg");
+}
+
+/*plans Style*/
+.gradianBackground{
+  background: linear-gradient( rgba(216, 216, 216, 0.842),rgba(0,0,0,0));
+}
+.plansSection{
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  padding: 20px;
+  transition: .5s ease;
+  margin-top: 10px;
+}
+.plansSection:hover{
+  border: 2px solid #f53855;
+}
+div.planList .custom-list li::before {
+  background-image: url("./../SVG/list2.svg");
+  /* font-size: 12px; */
+  width: 15px;
+  height: 15px;
+}
+
+/*global section*/
+.sponsers{
+  padding: 10px;
+}
+.sponsers img{
+  width: 16%;
+}
+.globalImage img{
+  width: 100%;
+}
+
+/*Slider*/
+/* .feedBack{
+  height: 500px;
+  background-color: gainsboro;
+} */
+.container-slider {
+  position: relative;
+  width: 100%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden;
+   padding: 20px; /*Add padding for spacing */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  flex: 0 0 calc(30% - 20px); /* Each slide takes up 1/3 of the container minus the padding */
+  width: 100%;
+  scroll-snap-align: start;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  transition: .4s ease;
+}
+.slide:hover{
+  border: 2px solid #f53855;
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+/*slider container*/
+.customerImage img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+

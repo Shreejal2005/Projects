@@ -22,6 +22,26 @@
     width: 100%;
     text-align: center;
   }
+  .featuresImage{
+    width: 100%;
+  }
+  .featuresImage img{
+    width: 100%;
+  }
+  .featuresContainer{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .listContain{
+    width: max-content;
+    margin: auto;
+  }
+  .slide {
+    flex: 0 0 calc(50% - 40px); /* Two slides per row on smaller screens */
+    margin: 10px;
+    padding: 10px;
+  }
 }
 @media (min-width: 951px) {
   .menuBtn {
@@ -39,5 +59,20 @@
   }
   div.dropDown{
     display: none !important;
+  }
+  .featuresImage{
+    width: 40%;
+  }
+  .featuresContainer{
+    width: 50%;
+  }
+  .featuresImage img {
+    width: 100%;
+  }
+  
+  .slide {
+    flex: 0 0 calc(32% - 25px); /* three slide per row on even smaller screens */
+    margin: 8px;
+    padding: 10px;
   }
 }

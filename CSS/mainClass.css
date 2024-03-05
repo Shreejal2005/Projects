@@ -11,169 +11,221 @@
 }
 
 /* flex classes */
-.flexContainer{
-    display: flex;
+.flexContainer {
+  display: flex;
 }
-.flexWrap{
-    flex-wrap: wrap;
+.flexWrap {
+  flex-wrap: wrap;
 }
-.felxReverse{
-    flex-wrap: wrap-reverse;
+.felxReverse {
+  flex-wrap: wrap-reverse;
 }
-.alignItemCenter{
-    align-items: center;
+.alignItemCenter {
+  align-items: center;
 }
-.alignItemStart{
-    align-items: start;
+.alignItemStart {
+  align-items: start;
 }
-.j-spaceBetween{
-    justify-content: space-between;
+.j-spaceBetween {
+  justify-content: space-between;
 }
-.j-spaceAround{
-    justify-content: space-around;
+.j-spaceAround {
+  justify-content: space-around;
 }
-.j-spaceEvenly{
-    justify-content: space-evenly;
+.j-spaceEvenly {
+  justify-content: space-evenly;
 }
 
-
-a,button{
-    cursor: pointer;
-    text-decoration: none;
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* color classes */
 
-.redColor{
-    color: #F53855;
+.redColor {
+  color: #f53855;
 }
-.lightBlack{
-    color: #4F5665;
+.lightBlack {
+  color: #4f5665;
 }
 
 /* font weight  */
-b{
-    font-weight: 700;
+b {
+  font-weight: 700;
 }
-.fW-400{
-    font-weight: 400;
+.fW-400 {
+  font-weight: 400;
 }
-.fW-500{
-    font-weight: 500;
+.fW-500 {
+  font-weight: 500;
 }
-.fW-600{
-    font-weight: 600;
+.fW-600 {
+  font-weight: 600;
 }
-.fW-700{
-    font-weight: 700;
+.fW-700 {
+  font-weight: 700;
 }
-.fW-800{
-    font-weight: 800;
+.fW-800 {
+  font-weight: 800;
 }
 
 /* font size */
-.f-12{
-    font-size: 12px;
+.f-12 {
+  font-size: 12px;
 }
-.f-14{
-    font-size: 14px;
+.f-14 {
+  font-size: 14px;
 }
-.f-16{
-    font-size: 16px;
+.f-16 {
+  font-size: 16px;
 }
-.f-18{
-    font-size: 18px;
+.f-18 {
+  font-size: 18px;
 }
-.f-20{
-    font-size: 20px;
+.f-20 {
+  font-size: 20px;
 }
-.f-25{
-    font-size: 25px;
+.f-25 {
+  font-size: 25px;
 }
-.f-30{
-    font-size: 30px;
+.f-30 {
+  font-size: 30px;
 }
-.f-35{
-    font-size: 35px;
+.f-35 {
+  font-size: 35px;
 }
-.f-40{
-    font-size: 40px;
+.f-40 {
+  font-size: 40px;
 }
-.f-45{
-    font-size: 45px;
+.f-45 {
+  font-size: 45px;
 }
-.f-50{
-    font-size: 50px;
+.f-50 {
+  font-size: 50px;
 }
-.f-55{
-    font-size: 55px;
+.f-55 {
+  font-size: 55px;
 }
 
 /* width */
-.maxWidth{
-    width: 100%;
+.maxWidth {
+  width: 100%;
 }
-.width90{
-    width: 90%;
+.width90 {
+  width: 90%;
 }
-.width80{
-    width: 80%;
+.width80 {
+  width: 80%;
 }
-.width70{
-    width: 70%;
+.width70 {
+  width: 70%;
 }
-.width60{
-    width: 60%;
+.width60 {
+  width: 60%;
 }
-.width50{
-    width: 50%;
+.width50 {
+  width: 50%;
+}
+/*Height*/
+.autoHeight{
+    height: auto;
+}
+.maxHeight {
+  height: 100%;
+}
+.height90 {
+  width: 90%;
+}
+.height80 {
+  width: 80%;
+}
+.height70 {
+  width: 70%;
+}
+.height60 {
+  width: 60%;
+}
+.height50 {
+  width: 50%;
 }
 
 /* margin */
-.marginAuto{
-    margin: auto;
+.marginAuto {
+  margin: auto;
 }
 
 /* display  */
-.noDisplay{
-    display: none;
+.noDisplay {
+  display: none;
 }
-.blockDisplay{
-    display: block;
+.blockDisplay {
+  display: block;
 }
 
 /* padding */
-.p-10{
-    padding: 10px;
+.p-10 {
+  padding: 10px;
 }
-.p-20{
-    padding: 20px;
+.p-20 {
+  padding: 20px;
 }
 
 /* vertical spacer  */
-.v-spacer20{
-    height: 20px;
+.v-spacer20 {
+  height: 20px;
 }
-.v-spacer30{
-    height: 30px;
+.v-spacer30 {
+  height: 30px;
 }
-.v-spacer40{
-    height: 40px;
+.v-spacer40 {
+  height: 40px;
 }
-.v-spacer50{
-    height: 50px;
+.v-spacer50 {
+  height: 50px;
 }
 
 /* horizontal spacer  */
-.h-spacer20{
-    width: 20px;
+.h-spacer20 {
+  width: 20px;
 }
-.h-spacer30{
-    width: 30px;
+.h-spacer30 {
+  width: 30px;
 }
-.h-spacer40{
-    width: 40px;
+.h-spacer40 {
+  width: 40px;
 }
-.h-spacer50{
-    width: 50px;
+.h-spacer50 {
+  width: 50px;
+}
+
+/*Custom list style*/
+.custom-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.custom-list li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  /* background-image: url('./../SVG/list.svg'); */
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*Text align*/
+.startText {
+  text-align: start;
+}
+.endText {
+  text-align: end;
+}
+.centerText {
+  text-align: center;
 }
